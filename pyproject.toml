@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "reactivepanda"
+version = "0.1.0"
+description = "a wrapper of the panda3d game engine"
+authors = ["WSCU, forked by gdmcbain"]
+license = "unknown"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Panda3D = "^1.10.13.post1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
