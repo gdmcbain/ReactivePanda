@@ -30,7 +30,7 @@ All documentation and other information used to be found at our website, [reacti
 (Added 2023-10-05 by gdmcbain.)
 
 ```PowerShell
-python -v venv .venv
+python -m venv .venv
 Add-Content .git/info/exclude ".venv/", ".vscode/"
 .venv/Scripts/Activate.ps1
 python -m pip install -U pip
