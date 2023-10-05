@@ -46,4 +46,10 @@ No good: needs `pythonfrp`. There's a package of that name at <https://github.co
 
 ```PowerShell
 python -m pip install -e ..\pythonfrp
+python
+```
+
+```python
+from PandaSRC.Panda import panda, time, hpr
+panda(hpr=hpr(time, 1, 0))
 ```
